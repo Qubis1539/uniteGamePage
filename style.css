@@ -1,0 +1,39 @@
+@import url();
+
+
+:root{
+    --headerBG: #c89b7b;
+    --container-width: 1200px;
+    --card-width-large-screen: calc(var(--container-width) / 3);
+    --card-width-medium-screen: calc(var(--container-width) / 2);
+    --card-width-small-screen: calc(var(--container-width) / 1);
+    --btn-padding: 8px 20px
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    max-width: var(--container-width);
+}
+header{
+    background: var(--headerBG);
+}
+
+section{
+    background: #211c1c;
+    color: whitesmoke;
+    padding: var(--btn-padding);
+}
+.card{
+    width: var(--card-width-medium-screen);
+    height: 400px;
+    background: red;
+    border: 2px solid black;
+}
+footer{
+    background: #000;
+    color: white;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <a href="">link page</a><a href="">link page</a><a href="">link page</a><a href="">link page</a><a href="">link page</a><a href="">link page</a>
+    </header>
+    <main>
+        <section>
+            <h2>Title</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis perferendis sint enim, illo inventore architecto ullam quas harum iusto amet deserunt culpa corporis, pariatur vero eius, consequuntur incidunt quidem ad veniam cumque eligendi deleniti!</p>
+        </section>
+        <section>
+            <h2>Title</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus odit laborum consequuntur eaque error officia pariatur libero incidunt qui aliquid. Atque ad, tempore officiis delectus non quibusdam consequuntur tempora possimus id commodi, voluptas perspiciatis.`</p>
+        </section>
+        <section>
+            <h2>Title</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus odit laborum consequuntur eaque error officia pariatur libero incidunt qui aliquid. Atque ad, tempore officiis delectus non quibusdam consequuntur tempora possimus id commodi, voluptas perspiciatis.`</p>
+        
+        </section>
+        <section>
+            <h2>Title</ h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis perferendis sint enim, illo inventore architecto ullam quas harum iusto amet deserunt culpa corporis, pariatur vero eius, consequuntur incidunt quidem ad veniam cumque eligendi deleniti!</p>
+        </section>
+        <section>
+            <h2>Title</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus odit laborum consequuntur eaque error officia pariatur libero incidunt qui aliquid. Atque ad, tempore officiis delectus non quibusdam consequuntur tempora possimus id commodi, voluptas perspiciatis.`</p>
+        </section>
+        <section>
+            <h2>Title</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus odit laborum consequuntur eaque error officia pariatur libero incidunt qui aliquid. Atque ad, tempore officiis delectus non quibusdam consequuntur tempora possimus id commodi, voluptas perspiciatis.`</p>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+        </section>
+        <label for="range"></label>
+        <input type="range" min="0" id = "range" max="99999999999" step="1" value="0"> 
+    </main>
+    <footer>
+        <a href="">linkSocial</a><a href="">linkSocial</a><a href="">linkSocial</a>
+    </footer>
+
+    <script>
+        document.querySelector("#range").addEventListener("input", function(){
+            document.querySelector("label").innerHTML = document.querySelector("#range").value
+        })
+    </script>
+</body>
+</html>
